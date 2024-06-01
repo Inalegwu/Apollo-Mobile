@@ -2,7 +2,7 @@ import { createTheme } from "@shopify/restyle";
 
 const palette = {
   primary: "#8AA0CB",
-  accent: "rgba(138,160,203,8%)",
+  accent: "#8AA0CB30",
   white: "#FFFFFF",
   success: "#00FF38",
   error: "#5E1C16",

@@ -11,8 +11,19 @@ export default function Page() {
       alignItems="center"
       justifyContent="center"
     >
-      <Text>Hello World</Text>
+      <Text color="accent">Hello World</Text>
       <Feather name="key" size={20} />
+      <Box
+        width={100}
+        height={100}
+        backgroundColor="accent"
+        flexDirection="row"
+        alignItems="center"
+        justifyContent="flex-start"
+        padding="s"
+      >
+        <Text color="primary">Keychain ID</Text>
+      </Box>
     </Box>
   );
 }
