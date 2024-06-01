@@ -10,12 +10,10 @@
     "noUnusedParameters": true,
     "baseUrl": ".",
     "paths": {
-      "@env": ["./src/env.js"],
-      "@app":["./src/api/app.ts"],
       "@state": ["./src/state/index.ts"],
       "@components": ["./src/components/index.ts"],
-      "@/api/*": ["./src/api/*"],
-      "@/utils/*": ["./src/utils/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@atoms": ["src/components/atoms/index.ts"]
     }
   },
   "extends": "expo/tsconfig.base"

@@ -16,12 +16,12 @@ configureObservablePersistence({
   },
 });
 
-const globalState = observable<GlobalState>({
-  theme: "dark",
+const globalState$ = observable<GlobalState>({
+  theme: "light",
 });
 
-persistObservable(globalState, {
+persistObservable(globalState$, {
   local: "global_state",
 });
 
-export default globalState;
+export default globalState$;

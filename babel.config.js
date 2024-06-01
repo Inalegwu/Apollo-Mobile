@@ -8,12 +8,11 @@ module.exports = (api) => {
         {
           root: ["./"],
           alias: {
-            "@env": "./src/env.js",
             "@state": "./src/state/index.ts",
-            "@/api": "./src/api/*",
             "@app": "./src/api/app.ts",
             "@components": "./src/components/index.ts",
-            "@/utils": "./utils/*",
+            "@utils": "./utils/*",
+            "@atoms": "./src/components/atoms/index.ts",
           },
           extensions: [
             ".ios.ts",
@@ -28,7 +27,6 @@ module.exports = (api) => {
           ],
         },
       ],
-      "nativewind/babel",
     ],
   };
 };

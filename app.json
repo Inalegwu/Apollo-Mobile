@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "SpawnPoint",
-    "slug": "SpawnPoint",
-    "scheme": "spawn-point",
+    "name": "Apollo",
+    "slug": "apollo",
+    "scheme": "apollo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
